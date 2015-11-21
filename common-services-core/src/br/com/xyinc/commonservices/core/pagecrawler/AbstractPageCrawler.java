@@ -7,6 +7,11 @@ import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.URL;
 
+/***
+ * 
+ * @author Danilo Nogueira Costa
+ *
+ */
 public abstract class AbstractPageCrawler {
 	
 	

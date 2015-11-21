@@ -8,6 +8,11 @@ import net.htmlparser.jericho.Element;
 import net.htmlparser.jericho.Source;
 import br.com.xyinc.commonservices.core.dto.AddressDto;
 
+/***
+ * 
+ * @author Danilo Nogueira Costa
+ *
+ */
 public class CorreiosPageCrawler extends AbstractPageCrawler {
 	
 	private static String URL_CORREIOS_ADDRESS_SEARCH = "http://www.buscacep.correios.com.br/sistemas/buscacep/resultadoBuscaCepEndereco.cfm";
