@@ -19,7 +19,7 @@ import br.com.xyinc.commonservices.dto.AddressDto;
  */
 public class CorreiosPageCrawler extends AbstractPageCrawler {
 	
-	private static String URL_CORREIOS_ADDRESS_SEARCH = "http://www.buscacepa.correios.com.br/sistemas/buscacep/resultadoBuscaCepEndereco.cfm";
+	private static String URL_CORREIOS_ADDRESS_SEARCH = "http://www.buscacep.correios.com.br/sistemas/buscacep/resultadoBuscaCepEndereco.cfm";
 	
 	public List<AddressDto> getAddress(String relaxation, String type, String similar) throws CrawlerException{
 		try {
@@ -73,7 +73,7 @@ public class CorreiosPageCrawler extends AbstractPageCrawler {
 		} catch (CrawlerException e){
 			throw e;
 		}catch (Exception e) {
-			throw new CrawlerException(String.format("Erro ao tentar parsear a p·gina solicitada ao endereÁo %s", CorreiosPageCrawler.URL_CORREIOS_ADDRESS_SEARCH), e);
+			throw new CrawlerException(String.format("Erro ao tentar parsear a p√°gina solicitada ao endere√ßo %s", CorreiosPageCrawler.URL_CORREIOS_ADDRESS_SEARCH), e);
 		}
 	}
 }
