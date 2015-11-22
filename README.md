@@ -16,3 +16,9 @@ Para fazer build na aplicação:
 - Execute o comando mvn clean install
 - O build será gerado em C:\Projetos\TesteZUP\Sources\common-services-web\target\common-services-web.war
 - Copie o arquivo para a pasta webapps do Jetty e faça o procedimento de start do servidor.
+
+
+Exemplo de testes:
+
+- Busca por cep: http://localhost:8080/customer-services/rest/address/zipCode/38025490 
+- Busca por Logradouro: http://localhost:8080/customer-services/rest/address/name/Visconde do Abaete, Uberaba 
