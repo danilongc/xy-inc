@@ -20,5 +20,5 @@ Para fazer build na aplicação:
 
 Exemplo de testes:
 
-- Busca por cep: http://localhost:8080/customer-services/rest/address/zipCode/38025490 
-- Busca por Logradouro: http://localhost:8080/customer-services/rest/address/name/Visconde do Abaete, Uberaba 
+- Busca por cep: http://localhost:8080/common-services-web/rest/address/zipCode/38025490
+- Busca por Logradouro: http://localhost:8080/common-services-web/rest/address/name/Visconde do Abaete, Uberaba 
