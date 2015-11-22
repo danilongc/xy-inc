@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Common Services</title>
+
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="css/main.css">
+
+
+</head>
+<body>
+
+	<div class="jumbotron">
+		<div class="container">
+			<h1>Common Services (REST)</h1>
+			<p>Esta é uma API para exposição de serviços REST. Atualmente a API conta apenas com serviços 
+			de busca de CEPs e endereços fazendo Web Crawling na página dos Correios.</p>
+		</div>
+	</div>
+	<div class="mainBody">
+
+		<div class="page-header">
+			<h1>Serviços</h1>
+		</div>
+		
+		Todos os serviços estão disponíveis para request via GET e retornam a resposta em formato JSON.<br /><br />
+		
+		<strong>Busca de endereço por CEP</strong>
+		<div class="alert alert-info" role="alert">
+			<a href="rest/address/zipCode/38025490" target="_blank">
+				http://myserver:8080/customer-services/rest/address/zipCode/38025490
+			</a>
+		</div>
+		
+		<strong>Busca de endereço por logradouro</strong>
+		<div class="alert alert-info" role="alert">
+			<a href="rest/address/name/Visconde do Abaete, Uberaba" target="_blank">
+				http://myserver:8080/customer-services/rest/address/name/Visconde do Abaete, Uberaba
+			</a>
+		</div>
+	</div>
+
+</body>
+</html>
