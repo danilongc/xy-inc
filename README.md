@@ -3,6 +3,8 @@ Teste ZUP
 
 A aplicação foi desenvolvida no Eclipse Luna 64bits, compilada com o JDK 1.8.0_65 e testada utilizando o Jetty (jetty-distribution-9.3.6.v20151106) no Windows 7 64.
 
+É aconselhável que você tenha definido as variaveis de sistema JAVA_HOME e MVN_HOME definidas e incluidas no PATH.
+
 ### Para rodar aplicação sem a necessidade do build:
 
 * Fazer o download da destribuição do Jetty pelo endereço http://download.eclipse.org/jetty/stable-9/dist/jetty-distribution-9.3.6.v20151106.zip, descompactar e copiar para a pasta webapps (ex: C:\jetty-distribution-9.3.6.v20151106\webapps) o arquivo common-services-web.war que está dentro da pasta bin do repositório.
