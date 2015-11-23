@@ -43,25 +43,25 @@
 		</dependency>
 
 		<dependency>
-				<groupId>org.hamcrest</groupId>
-				<artifactId>hamcrest-core</artifactId>
-				<scope>compile</scope>
-			</dependency>
-			<dependency>
-				<groupId>org.hamcrest</groupId>
-				<artifactId>hamcrest-library</artifactId>
-				<scope>compile</scope>
-			</dependency>
-			<dependency>
-				<groupId>org.mockito</groupId>
-				<artifactId>mockito-all</artifactId>
-				<scope>compile</scope>
-			</dependency>
-			<dependency>
-				<groupId>junit</groupId>
-				<artifactId>junit</artifactId>
-				<scope>compile</scope>
-			</dependency>
+			<groupId>org.hamcrest</groupId>
+			<artifactId>hamcrest-core</artifactId>
+			<scope>compile</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.hamcrest</groupId>
+			<artifactId>hamcrest-library</artifactId>
+			<scope>compile</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.mockito</groupId>
+			<artifactId>mockito-all</artifactId>
+			<scope>compile</scope>
+		</dependency>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<scope>compile</scope>
+		</dependency>
 
 		<!-- Spring test -->
 		<dependency>
@@ -70,7 +70,7 @@
 			<scope>compile</scope>
 		</dependency>
 
-		
+
 
 		<!-- Servlet API -->
 		<dependency>
@@ -79,13 +79,14 @@
 			<scope>compile</scope>
 		</dependency>
 
-		
 
-		<!-- SLF4J -->
+
+		<!-- Log4j -->
 		<dependency>
-			<groupId>org.slf4j</groupId>
-			<artifactId>slf4j-api</artifactId>
+			<groupId>log4j</groupId>
+			<artifactId>log4j</artifactId>
 		</dependency>
+
 
 		<!-- <dependency> <groupId>org.slf4j</groupId> <artifactId>slf4j-log4j13</artifactId> 
 			</dependency> -->
