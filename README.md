@@ -1,7 +1,7 @@
 # xy-inc
 Teste ZUP
 
-A aplicação foi desenvolvida no Eclipse Luna 64bits, compilada com o JDK 1.8.0_65 e testada utilizando o Jetty (jetty-distribution-9.3.6.v20151106) no Windows 7 64.
+A aplicação foi desenvolvida no Eclipse Luna 64bits, compilada com o JDK 1.8.0_65 e testada utilizando o Jetty (jetty-distribution-9.3.6.v20151106) no Windows 7 64 que precisa também da JDK 1.8 para rodar.
 
 É aconselhável que você tenha definido as variaveis de sistema JAVA_HOME e MVN_HOME definidas e incluidas no PATH.
 
