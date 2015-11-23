@@ -38,6 +38,6 @@ mvn clean install
 * Crie um novo workspace
 * Em Window > Preferences > Java > Installed JREs defina a JDK 1.8
 * Em File > Import > Existing Maven Projects selecione a pasta Sources do repositório e importe todos os projetos
-* Faça o build pelo Projeto Common Services que é aonde está o POM Pai. Se você definir o perfil Local, após o build o Maven irá automaticamente fazer start no Jetty para teste.
+* Faça o build pelo Projeto Common Services(POM Pai). Se você definir o perfil como "local", após o build o Maven irá automaticamente fazer start no Jetty para teste.
 
 Obs: Usando o Eclipse Luna, poderá ser usada a versão do EMBEDDED do Maven que vem com o Eclipse.
