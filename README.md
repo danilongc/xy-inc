@@ -30,7 +30,7 @@ mvn clean install
 
 
 ### Exemplo de testes:
-
+* Você pode acessar a aplicação pelo endereço http://localhost:8080/common-services-web/ que contem os links abaixo para teste
 * Busca por cep: http://localhost:8080/common-services-web/rest/address/zipCode/38025490
 * Busca por Logradouro: http://localhost:8080/common-services-web/rest/address/name/Visconde do Abaete, Uberaba 
 
